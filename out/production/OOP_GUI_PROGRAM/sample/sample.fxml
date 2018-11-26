@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.Separator?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -17,17 +21,36 @@
       <RowConstraints />
    </rowConstraints>
    <children>
-      <AnchorPane prefHeight="529.0" prefWidth="745.0">
+      <AnchorPane prefHeight="290.0" prefWidth="641.0">
          <children>
-            <Label layoutX="14.0" prefHeight="92.0" prefWidth="736.0" text="Assignment Planner">
+            <Label layoutX="79.0" layoutY="-7.0" prefHeight="48.0" prefWidth="506.0" text="ASSIGNMENT PLANNER">
                <font>
-                  <Font name="Razer Header Light" size="64.0" />
+                  <Font name="Mistral" size="64.0" />
                </font>
             </Label>
-            <Separator layoutX="473.0" layoutY="125.0" orientation="VERTICAL" prefHeight="365.0" prefWidth="0.0" />
-            <Label layoutX="14.0" layoutY="125.0" prefHeight="26.0" prefWidth="122.0" text="Add an assignment:" />
-            <Label layoutX="14.0" layoutY="160.0" prefHeight="17.0" prefWidth="103.0" text="Assignment Name:" />
-            <TextField layoutX="117.0" layoutY="156.0" />
+            <Separator layoutX="297.0" layoutY="79.0" orientation="VERTICAL" prefHeight="199.0" prefWidth="9.0" />
+            <Label layoutX="81.0" layoutY="73.0" prefHeight="26.0" prefWidth="149.0" text="ADD AN ASSIGNMENT">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="13.0" layoutY="142.0" prefHeight="17.0" prefWidth="103.0" text="Assignment Name:" />
+            <TextField layoutX="122.0" layoutY="138.0" prefHeight="25.0" prefWidth="167.0" />
+            <Label layoutX="14.0" layoutY="174.0" prefHeight="17.0" prefWidth="65.0" text="Due Date:" />
+            <DatePicker layoutX="97.0" layoutY="170.0" prefHeight="25.0" prefWidth="192.0" />
+            <Label layoutX="14.0" layoutY="105.0" text="Class Name:" />
+            <TextField layoutX="97.0" layoutY="101.0" prefHeight="25.0" prefWidth="192.0" />
+            <Label layoutX="155.0" layoutY="204.0" prefHeight="17.0" prefWidth="77.0" text="Importance:" />
+            <MenuButton layoutX="231.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="56.0" text="-">
+              <items>
+                <MenuItem mnemonicParsing="false" text="1 - Low" />
+                <MenuItem mnemonicParsing="false" text="2" />
+                  <MenuItem mnemonicParsing="false" text="3" />
+                  <MenuItem mnemonicParsing="false" text="4" />
+                  <MenuItem mnemonicParsing="false" text="5 - High" />
+              </items>
+            </MenuButton>
+            <Button layoutX="232.0" layoutY="240.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="54.0" text="Clear" />
+            <Button layoutX="167.0" layoutY="240.0" mnemonicParsing="false" text="Submit" />
          </children></AnchorPane>
    </children>
 </GridPane>
