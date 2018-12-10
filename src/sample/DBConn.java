@@ -1,3 +1,6 @@
+//Connects to DB
+//https://blog.ngopal.com.np/2011/10/19/dyanmic-tableview-data-from-database/
+
 package sample;
 
 import java.sql.Connection;

@@ -1,61 +1,69 @@
+//Controller for Main/FXML
+//Huge help from Carlos Perez and
+//https://blog.ngopal.com.np/2011/10/19/dyanmic-tableview-data-from-database/
+
 package sample;
 
-import com.jfoenix.controls.JFXButton;
-import com.jfoenix.controls.JFXTextField;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.util.ResourceBundle;
-import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableValue;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
 import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableColumn.CellDataFeatures;
 import javafx.scene.control.TableView;
-import javafx.stage.Stage;
+import javafx.scene.control.TextField;
 import javafx.util.Callback;
 
 public class Controller implements Initializable {
 
-  private final String[] colNames = {"Class", "Asgnmt", "Due Date", "Status"};
+  private final String[] colNames = {"Class", "Asgmt Name", "Due Date"};
   private ObservableList<ObservableList> data;
   @FXML private TableView<ObservableList> tableView;
-  @FXML private JFXTextField CNAME;
-  @FXML private JFXTextField ANAME;
-  @FXML private JFXTextField DATEDUE;
-  @FXML private JFXButton addbtn;
-  @FXML private JFXButton clearbtn;
-  @FXML private JFXButton removebtn;
-  @FXML private Label lbl_Error;
+  @FXML private TextField C_NAME;
+  @FXML private TextField A_NAME;
+  @FXML private DatePicker DATE_DUE;
+  @FXML private Button addbtn;
+  @FXML private Button clearbtn;  //TO BE ADDED BEFORE FINAL DUE*\
+  @FXML private Button removebtn; //TO BE ADDED BEFORE FINAL DUE*/
+  @FXML private Label errLbl;
 
-  public void addNewIndex() {
+
+  //CREDIT: HELP FROM CARLOS PEREZ (STUDENT)
+  public void addData() {
     //Check fields are filled
-    if (CNAME.getText().isEmpty() || ANAME.getText().isEmpty() || DATEDUE.getText().isEmpty()) {
-      lbl_Error.setText("[Please fill out the form]");
+    if (C_NAME.getText().isEmpty() || A_NAME.getText().isEmpty() || DATE_DUE.getValue() != null) {
+      errLbl.setText("Incorrect Data Entered");
 
     } else {
 
       try {
-        lbl_Error.setText("");
-        //Prepare Connection and SQL STATEMENT
+        //ignores error text 
+        errLbl.setText("");
+
+        //db connection
         Connection conNect = DBConn.connect();
-        String sql = "INSERT INTO ASSIGNMENTS(CNAME, ANAME, DATEDUE)" +
+
+        //supposed to insert data into the columns
+        String sql = "INSERT INTO ASSIGNMENTS(CLASS, ASSIGN, DATE)" +
             "VALUES (?,?,?)";
 
-        PreparedStatement statement = conNect.prepareStatement(sql);
-        statement.setString(1, CNAME.getText());
-        statement.setString(2, ANAME.getText());
-        statement.setString(3, DATEDUE.getText());
-        statement.executeUpdate();
+        PreparedStatement stateMent = conNect.prepareStatement(sql);
+        stateMent.setString(1, C_NAME.getText());
+        stateMent.setString(2, A_NAME.getText());
+        stateMent.setString(3, DATE_DUE.getValue().toString());
+        stateMent.executeUpdate();
 
-        //Update table
+        //Inputs data into table
         buildData();
         conNect.close();
 
@@ -67,6 +75,7 @@ public class Controller implements Initializable {
 
   public void buildData() {
 
+    //Column set up, credit at top
     data = FXCollections.observableArrayList();
 
     try {
@@ -78,11 +87,9 @@ public class Controller implements Initializable {
         final int j = i;
         TableColumn col = new TableColumn(colNames[i]);
         col.setCellValueFactory(
-            (Callback<CellDataFeatures<ObservableList, String>, ObservableValue<String>>)
-                param -> new SimpleStringProperty(param.getValue().get(j).toString()));
+            (Callback<CellDataFeatures<ObservableList, String>, ObservableValue<String>>) param -> new SimpleStringProperty(param.getValue().get(j).toString()));
 
-            tableView.getColumns().addAll(col);
-        System.out.println("Column [" + i + "] ");
+        tableView.getColumns().addAll(col);
       }
 
       while (rs.next()) {
@@ -98,21 +105,21 @@ public class Controller implements Initializable {
 
       conNect.close();
 
+      //puts data in table
       tableView.setItems(data);
 
     } catch (Exception e) {
       e.printStackTrace();
-      System.out.println("Error CONTROLLERCATCHSTSEMENT");
+      System.out.println("Error BldData");
 
     }
   }
 
-
-  @Override
   public void initialize(URL url, ResourceBundle resources) {
     buildData();
 
     //Table row selected listener
+    //Thanks to Carlos Perez
     tableView.getSelectionModel().selectedItemProperty().addListener((obs, oldSelection, newSelection) -> {
       if (newSelection != null) {
         System.out.println("Table select:" +newSelection);

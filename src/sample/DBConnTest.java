@@ -1,32 +1,35 @@
+//Tests if Database Connected
+//Help from stackoverflow FAQ and Carlos Perez
+
 package sample;
 
 import java.sql.*;
 
-public class SQLdriver {
+public class DBConnTest {
 
 
   public static void main(String args[]) {
     final String DB_URL = "jdbc:derby:C:\\Users\\Yeti\\Documents\\GitHub\\OOP_GUI_PROGRAM\\lib\\Planner";
-    final String SEL_QUERY = "SELECT CNAME, ANAME, DATEDUE FROM ASSIGNMENTS";
+    final String SEL_QUERY = "SELECT CLASS, ASSIGN, DATE FROM ASSIGNMENTS";
 
     try {
       Class.forName("org.apache.derby.jdbc.EmbeddedDriver");
     } catch (ClassNotFoundException e) {
-      System.out.println("Class not found.");
+      System.out.println("Class not found." + e);
     }
     try {
       Connection conNect = DriverManager.getConnection(DB_URL);
 
       Statement stateMent = conNect.createStatement();
       ResultSet rs = stateMent
-          .executeQuery("SELECT CNAME, ANAME, DATEDUE FROM ASSIGNMENTS");
+          .executeQuery("SELECT CLASS, ASSIGN, DATE FROM ASSIGNMENTS");
 
       System.out.println("1");
 
       while (rs.next()) {
-        String clasS = rs.getString("CNAME");
-        String assigN = rs.getString("ANAME");
-        Date datE = rs.getDate("DATEDUE");
+        String clasS = rs.getString("CLASS");
+        String assigN = rs.getString("ASSIGNMENT");
+        Date datE = rs.getDate("DATE");
         System.out.println(clasS + "    " + assigN + "     " + datE);
       }
 
