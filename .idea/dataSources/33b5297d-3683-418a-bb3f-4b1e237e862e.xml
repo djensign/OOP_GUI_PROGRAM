@@ -21,11 +21,11 @@
     <table id="13" parent="2" name="ASSIGNMENTS"/>
     <column id="14" parent="13" name="CLASS">
       <Position>1</Position>
-      <DataType>VARCHAR(15)|12s</DataType>
+      <DataType>VARCHAR(25)|12s</DataType>
     </column>
     <column id="15" parent="13" name="ASSIGN">
       <Position>2</Position>
-      <DataType>VARCHAR(15)|12s</DataType>
+      <DataType>VARCHAR(25)|12s</DataType>
     </column>
     <column id="16" parent="13" name="DATE">
       <Position>3</Position>

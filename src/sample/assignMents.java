@@ -72,9 +72,9 @@ public class assignMents {
 
         "className='" + className + '\'' +
 
-        "assignName='" + assignName + '\'' +
+        ", assignName='" + assignName + '\'' +
 
-        "dueDate='" + dueDate + '\'' +
+        ", dueDate='" + dueDate + '\'' +
 
         '}';
   }

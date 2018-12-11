@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="OOP_GUI_PROGRAM">
+    <output-path>$PROJECT_DIR$/out/artifacts/OOP_GUI_PROGRAM</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Assignment Planner" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="OOP_GUI_PROGRAM.jar">
+        <element id="module-output" name="OOP_GUI_PROGRAM" />
+      </element>
+    </root>
+  </artifact>
+</component>

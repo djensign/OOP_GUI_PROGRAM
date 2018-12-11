@@ -7,8 +7,8 @@
       <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
       <jdbc-url>jdbc:derby:$PROJECT_DIR$/lib/Planner</jdbc-url>
       <driver-properties>
-        <property name="CLASS" value="VARCHAR(15)" />
-        <property name="ASSIGN" value="VARCHAR(15)" />
+        <property name="CLASS" value="VARCHAR(25)" />
+        <property name="ASSIGN" value="VARCHAR(25)" />
         <property name="DATE" value="DATE" />
       </driver-properties>
     </data-source>

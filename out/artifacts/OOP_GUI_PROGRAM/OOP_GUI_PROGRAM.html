@@ -1,0 +1,43 @@
+<html><head>
+  <SCRIPT src="http://java.com/js/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'OOP_GUI_PROGRAM.jnlp'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbed_OOP_GUI_PROGRAM_id() {
+        dtjava.embed(
+            {
+                id : 'OOP_GUI_PROGRAM_id',
+                url : 'OOP_GUI_PROGRAM.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : 600,
+                height : 400
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbed_OOP_GUI_PROGRAM_id);
+</script>
+
+</head><body>
+<h2>Test page for <b>OOP_GUI_PROGRAM</b></h2>
+  <b>Webstart:</b> <a href='OOP_GUI_PROGRAM.jnlp' onclick="return launchApplication('OOP_GUI_PROGRAM.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

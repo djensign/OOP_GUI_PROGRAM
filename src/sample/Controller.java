@@ -35,8 +35,7 @@ public class Controller implements Initializable {
   @FXML private TextField A_NAME;
   @FXML private DatePicker DATE_DUE;
   @FXML public Button addbtn;
-  @FXML public Button clearbtn;  //TO BE ADDED BEFORE FINAL DUE*\
-  @FXML public Button removebtn; //TO BE ADDED BEFORE FINAL DUE*/
+  @FXML public Button removebtn;
   @FXML private Label errLbl;
 
 
@@ -67,6 +66,7 @@ public class Controller implements Initializable {
 
         //Inputs data into table
         buildData();
+
         conNect.close();
 
       } catch (Exception e) {
@@ -74,7 +74,7 @@ public class Controller implements Initializable {
       }
     }
   }
-
+  //CREDIT: HELP FROM CARLOS PEREZ (STUDENT)
   public void removeData() {
 
     String rowSelect = (tableView.getSelectionModel().getSelectedItem().toString());
@@ -102,6 +102,7 @@ public class Controller implements Initializable {
     }
   }
 
+  //https://blog.ngopal.com.np/2011/10/19/dyanmic-tableview-data-from-database/
   public void buildData() {
 
     //Column set up, credit at top
@@ -116,8 +117,8 @@ public class Controller implements Initializable {
         final int j = i;
         TableColumn col = new TableColumn(colNames[i]);
         col.setCellValueFactory(
-            (Callback<CellDataFeatures<ObservableList, String>, ObservableValue<String>>) param -> new SimpleStringProperty(param.getValue().get(j).toString()));
-
+            (Callback<CellDataFeatures<ObservableList, String>, ObservableValue<String>>)
+                param -> new SimpleStringProperty(param.getValue().get(j).toString()));
         tableView.getColumns().addAll(col);
       }
 
