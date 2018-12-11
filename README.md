@@ -12,7 +12,7 @@ This system was created with:
 
 ## Demonstration
 
-![Demo](https://giphy.com/gifs/uVQcXTh2OL8ji7DTfs)
+![Demo](https://media.giphy.com/media/uVQcXTh2OL8ji7DTfs/200w_d.gif)
 
 ## Getting Started
 
