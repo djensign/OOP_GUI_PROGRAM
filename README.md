@@ -12,7 +12,7 @@ This system was created with:
 
 ## Demonstration
 
-![eEavLT5snk](.gif)
+![https://giphy.com/gifs/uVQcXTh2OL8ji7DTfs](.gif)
 
 ## Getting Started
 
@@ -22,7 +22,7 @@ Finallly _
 
 ## License
 
-This project is licensed under the __ License.
+This project is licensed under the Apache License.
 
 ## Acknowledgments
 
