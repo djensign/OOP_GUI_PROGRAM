@@ -18,6 +18,8 @@ This system was created with:
 
 Within the out>artifacts> OOP_GUI_PROGRAM folder, run Assignment Planner.jar.
 
+Alternatively, you can download the jar file <a href="https://ufile.io/7ejrw">here.</a href>
+
 ## License
 
 This project is licensed under the Apache License.
