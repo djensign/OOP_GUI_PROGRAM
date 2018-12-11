@@ -14,11 +14,9 @@ This system was created with:
 
 ![Demo](https://media.giphy.com/media/uVQcXTh2OL8ji7DTfs/200w_d.gif)
 
-## Getting Started
+## How-To Run
 
-Please download the JAR file contained in the ___ folder.
-Next_
-Finallly _
+Within the out>artifacts> OOP_GUI_PROGRAM folder, run Assignment Planner.jar.
 
 ## License
 
