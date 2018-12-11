@@ -10,7 +10,6 @@ public class DBConnTest {
 
   public static void main(String args[]) {
     final String DB_URL = "jdbc:derby:C:\\Users\\Yeti\\Documents\\GitHub\\OOP_GUI_PROGRAM\\lib\\Planner";
-    final String SEL_QUERY = "SELECT CLASS, ASSIGN, DATE FROM ASSIGNMENTS";
 
     try {
       Class.forName("org.apache.derby.jdbc.EmbeddedDriver");

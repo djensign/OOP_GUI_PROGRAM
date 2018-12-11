@@ -4,10 +4,12 @@
 
 package sample;
 
+import static sample.DBConn.conNect;
 import java.net.URL;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.value.ObservableValue;
@@ -32,22 +34,22 @@ public class Controller implements Initializable {
   @FXML private TextField C_NAME;
   @FXML private TextField A_NAME;
   @FXML private DatePicker DATE_DUE;
-  @FXML private Button addbtn;
-  @FXML private Button clearbtn;  //TO BE ADDED BEFORE FINAL DUE*\
-  @FXML private Button removebtn; //TO BE ADDED BEFORE FINAL DUE*/
+  @FXML public Button addbtn;
+  @FXML public Button clearbtn;  //TO BE ADDED BEFORE FINAL DUE*\
+  @FXML public Button removebtn; //TO BE ADDED BEFORE FINAL DUE*/
   @FXML private Label errLbl;
 
 
   //CREDIT: HELP FROM CARLOS PEREZ (STUDENT)
   public void addData() {
     //Check fields are filled
-    if (C_NAME.getText().isEmpty() || A_NAME.getText().isEmpty() || DATE_DUE.getValue() != null) {
+    if (C_NAME.getText().isEmpty() || A_NAME.getText().isEmpty() || DATE_DUE.getValue() == null) {
       errLbl.setText("Incorrect Data Entered");
 
     } else {
 
       try {
-        //ignores error text 
+        //blank error
         errLbl.setText("");
 
         //db connection
@@ -70,6 +72,33 @@ public class Controller implements Initializable {
       } catch (Exception e) {
         System.err.println(e.getMessage());
       }
+    }
+  }
+
+  public void removeData() {
+
+    String rowSelect = (tableView.getSelectionModel().getSelectedItem().toString());
+
+    rowSelect =rowSelect.substring(1,rowSelect.indexOf(','));
+    System.out.println("Remove: "+rowSelect);
+
+    try {
+      errLbl.setText("");
+      Connection conNect = DBConn.connect();
+      String sql = "DELETE FROM ASSIGNMENTS WHERE CLASS = ?";
+    PreparedStatement stateMent2 = conNect.prepareStatement(sql);
+
+    stateMent2.setString(1, rowSelect);
+
+    stateMent2.executeUpdate();
+
+    buildData();
+
+    conNect.close();
+
+    }
+    catch (SQLException e){
+      System.out.println(e.getMessage());
     }
   }
 
@@ -110,7 +139,7 @@ public class Controller implements Initializable {
 
     } catch (Exception e) {
       e.printStackTrace();
-      System.out.println("Error BldData");
+      System.out.println("Data Building Error");
 
     }
   }

@@ -9,8 +9,8 @@ import java.sql.SQLException;
 
 public class DBConn {
 
-  protected static Connection conNect;
-  private static String DBURL = "jdbc:derby:lib\\Planner";
+  public static Connection conNect;
+  public static String DBURL = "jdbc:derby:lib\\Planner";
 
   public static Connection connect() throws SQLException{
     try{

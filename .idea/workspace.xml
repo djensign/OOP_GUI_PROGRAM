@@ -7,44 +7,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33b5297d-3683-418a-bb3f-4b1e237e862e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33b5297d-3683-418a-bb3f-4b1e237e862e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP_GUI_PROGRAM.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OOP_GUI_PROGRAM.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Planner/log/log1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Planner/log/log3.dat" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/log/logmirror.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c10.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c10.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c150.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c161.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c20.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c230.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c241.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c241.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c251.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c251.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c41.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c51.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c81.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c4b0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c4b0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/c90.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/ca1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/Planner/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Planner/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/jfoenix-8.0.8.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/DBConn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/DBConn.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/GUIDesign.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/GUIDesign.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/SQLdriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/assignMents.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_GUI_PROGRAM/sample/assignMents.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/DBConn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DBConn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sample/DBConnTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DBConnTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sample/GUIDesign.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/GUIDesign.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/SQLdriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/DBConnTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sample/assignMents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sample/assignMents.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -130,7 +116,7 @@
     <session id="1464191813">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.4" value="1" />
@@ -142,25 +128,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="fxml" value="39" />
-          <entry key="java" value="4384" />
-          <entry key="sql" value="571" />
+          <entry key="fxml" value="42" />
+          <entry key="java" value="4837" />
+          <entry key="sql" value="599" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4384" />
+          <entry key="JAVA" value="4837" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="SQL" value="27" />
-          <entry key="Scratch" value="544" />
-          <entry key="XML" value="39" />
+          <entry key="Scratch" value="572" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ASSIGNMENTS" value="7" />
           <entry key="iml" value="1" />
-          <entry key="java" value="7" />
+          <entry key="java" value="8" />
           <entry key="sql" value="3" />
           <entry key="xml" value="1" />
         </counts>
@@ -169,7 +155,7 @@
         <counts>
           <entry key="Database Element" value="7" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="8" />
           <entry key="SQL" value="1" />
           <entry key="Scratch" value="2" />
           <entry key="XML" value="1" />
@@ -214,11 +200,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state relative-caret-position="425">
+              <caret line="133" selection-start-line="133" selection-end-line="133" />
               <folding>
                 <element signature="e#0#3614#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -231,7 +217,7 @@
         <entry file="file://$PROJECT_DIR$/src/sample/assignMents.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#1264#0" expanded="true" />
                 <element signature="e#870#871#0" expanded="true" />
@@ -244,8 +230,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/DBConnTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
+            <state relative-caret-position="34">
+              <caret line="11" column="105" selection-start-line="11" selection-start-column="105" selection-end-line="11" selection-end-column="105" />
               <folding>
                 <element signature="e#0#1147#0" expanded="true" />
               </folding>
@@ -256,8 +242,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/sample/DBConn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
+            <state relative-caret-position="153">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="e#0#1071#0" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -274,8 +260,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="das://33b5297d-3683-418a-bb3f-4b1e237e862e/schema/APP/table/ASSIGNMENTS.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state>
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -292,14 +278,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/sample/GUIDesign.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="37" column="79" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="79" />
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
             </state>
           </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -326,12 +312,12 @@
         <option value="$PROJECT_DIR$/src/sample/SQLdriver.java" />
         <option value="$PROJECT_DIR$/src/sample/Main.java" />
         <option value="33b5297d-3683-418a-bb3f-4b1e237e862e/schema/APP/table/ASSIGNMENTS.sql" />
-        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/33b5297d-3683-418a-bb3f-4b1e237e862e/console.sql" />
-        <option value="$PROJECT_DIR$/src/sample/DBConnTest.java" />
-        <option value="$PROJECT_DIR$/src/sample/DBConn.java" />
         <option value="$PROJECT_DIR$/src/sample/assignMents.java" />
-        <option value="$PROJECT_DIR$/src/sample/GUIDesign.fxml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/33b5297d-3683-418a-bb3f-4b1e237e862e/console.sql" />
+        <option value="$PROJECT_DIR$/src/sample/DBConn.java" />
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+        <option value="$PROJECT_DIR$/src/sample/DBConnTest.java" />
+        <option value="$PROJECT_DIR$/src/sample/GUIDesign.fxml" />
       </list>
     </option>
   </component>
@@ -342,7 +328,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="833" />
     <option name="width" value="854" />
     <option name="height" value="1017" />
@@ -407,7 +393,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Yeti/Documents/GitHub/OOP_GUI_PROGRAM/src/sample/assignMents.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544466240848" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544542882057" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/Edit As Language" value="Derby" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="dynamic.classpath" value="false" />
@@ -452,7 +438,6 @@
     <configuration name="DBConnTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sample.DBConnTest" />
       <module name="OOP_GUI_PROGRAM" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sample.*" />
@@ -563,8 +548,8 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="JAR Application.Assignment Planner" />
       <item itemvalue="JAR Application.derby.jar" />
-      <item itemvalue="Cucumber java.All Features in: lib" />
       <item itemvalue="Application.DBConnTest" />
+      <item itemvalue="Cucumber java.All Features in: lib" />
     </list>
     <recent_temporary>
       <list>
@@ -591,18 +576,17 @@
       <workItem from="1544410700563" duration="1098000" />
       <workItem from="1544411914887" duration="7609000" />
       <workItem from="1544448493915" duration="6052000" />
-      <workItem from="1544454650773" duration="9047000" />
+      <workItem from="1544454650773" duration="15888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55275000" />
+    <option name="totallyTimeSpent" value="62116000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="833" y="0" width="854" height="1017" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.20403023" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.09902201" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" />
       <window_info id="Designer" order="3" />
@@ -612,7 +596,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32847533" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3295583" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.33748585" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.33408073" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -629,12 +613,12 @@
       <window_info anchor="bottom" id="Statistic" order="17" />
       <window_info anchor="bottom" id="Dependency Viewer" order="18" weight="0.3295583" />
       <window_info anchor="bottom" id="SQL Generator" order="19" weight="0.32847533" />
-      <window_info anchor="right" x="0" y="0" width="163" height="817" id="Documentation" sideWeight="0.50085473" side_tool="true" weight="0.23803526" />
+      <window_info anchor="right" x="0" y="0" width="163" height="817" id="Documentation" sideWeight="0.5011211" side_tool="true" visible="true" weight="0.11552567" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="3" />
-      <window_info anchor="right" id="Database" order="4" sideWeight="0.4991453" visible="true" weight="0.23803526" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49887893" visible="true" weight="0.11552567" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
@@ -758,37 +742,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://33b5297d-3683-418a-bb3f-4b1e237e862e/schema/APP/table/ASSIGNMENTS">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-          <column-attributes>
-            <column name="CLASS" languageId="Derby" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/33b5297d-3683-418a-bb3f-4b1e237e862e/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://33b5297d-3683-418a-bb3f-4b1e237e862e/schema/APP/table/ASSIGNMENTS.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DBConn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="77" selection-start-line="1" selection-start-column="77" selection-end-line="1" selection-end-column="77" />
-          <folding>
-            <element signature="e#0#1071#0" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -799,20 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/DBConnTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="46" selection-start-line="1" selection-start-column="46" selection-end-line="1" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#1147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/assignMents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#1264#0" expanded="true" />
             <element signature="e#870#871#0" expanded="true" />
@@ -821,24 +764,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sample/GUIDesign.fxml">
+    <entry file="file://$PROJECT_DIR$/src/sample/DBConn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="37" column="79" lean-forward="true" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="79" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1071#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/33b5297d-3683-418a-bb3f-4b1e237e862e/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://33b5297d-3683-418a-bb3f-4b1e237e862e/schema/APP/table/ASSIGNMENTS.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://33b5297d-3683-418a-bb3f-4b1e237e862e/schema/APP/table/ASSIGNMENTS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+          <column-attributes>
+            <column name="CLASS" languageId="Derby" />
+          </column-attributes>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_20/javafx-src.zip!/javafx/util/Callback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="39" column="2" lean-forward="true" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        <state relative-caret-position="425">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
           <folding>
             <element signature="e#0#3614#0" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/DBConnTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="11" column="105" selection-start-line="11" selection-start-column="105" selection-end-line="11" selection-end-column="105" />
+          <folding>
+            <element signature="e#0#1147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/GUIDesign.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -851,6 +842,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
